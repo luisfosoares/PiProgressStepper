@@ -18,6 +18,17 @@ Table of contents:
 
 #About
 
+This code is a proof of concept for the use of steppers with lcd's.
+
+The progress bar was meant to display the progress of the number of steps that the user inputs
+
+Possible use cases:
+		
+ - sewing thread winder
+ - food mixer timer 
+ - wind pinwheel timer
+ - others...
+ 
 ###What do you need
 
  - Raspberry Pi 2 or newer with internet connection 	
