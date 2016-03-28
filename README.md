@@ -6,7 +6,7 @@ This is the Pi Progress Stepper, follow your stepper turns with a progress bar !
 </p>
 
 <p align="center">
-<IMG SRC="http://s17.postimg.org/hjqetluod/ezgif_com_optimize.gif" ALT="some text" WIDTH=322 HEIGHT=166>
+<IMG SRC="demo.gif"  WIDTH=322 HEIGHT=166>
 </p>
 
 Table of contents:
