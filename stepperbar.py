@@ -143,7 +143,7 @@ for step in range(1, steps+1):
     
 
     # Calculate number of complete bars
-    totalBars = float(sreenLenght)/float(steps)*float(currentStepvalue)
+    totalBars = float(screenLenght)/float(steps)*float(currentStepValue)
 
     # Display complete bars
     if (totalBars >= 1):
