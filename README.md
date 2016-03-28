@@ -3,6 +3,7 @@ This is the Pi Progress Stepper, follow your stepper turns with a progress bar !
 
 <p align="center">
   <img src="http://s12.postimg.org/itm0p51l9/12910901_10206020561495372_728780836_n.jpg">
+  ![Screenshot](demo.gif)
 </p>
 
 Table of contents:
