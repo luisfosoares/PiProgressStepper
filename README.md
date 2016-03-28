@@ -1,18 +1,24 @@
 This is the Pi Progress Stepper, follow your stepper turns with a progress bar !
-========================================================================
-
-![alt tag](http://s13.postimg.org/u0gdbm52v/12921057_10206018122874408_179296024_n_png.jpg)
 ------------------------------------------------------------------------
 
-Contents:
-=========
+<p align="center">
+  <img src="http://s13.postimg.org/u0gdbm52v/12921057_10206018122874408_179296024_n_png.jpg">
+</p>
 
-  - What do you need
-  -  Dependencies
-  - How to use it
+Table of contents:
+------------------
 
+* [About](#about)
+* [What do you need](#what-do-you-need)
+* [Dependencies](#dependencies)
+* [How to use it](#how-to-use-it)
+* [License](#license)
 
-What do you need:
+<br>
+
+#About
+
+###What do you need
 
  - Raspberry Pi 2 or newer with internet connection 	
  -  i2c 16x2 lcd or similar
@@ -20,8 +26,7 @@ What do you need:
  - Stepper motor driver i.e. L289N
  - Jumper wires
 
-	
-Dependencies
+###Dependencies
 
 - SMBus
 
@@ -31,7 +36,8 @@ Dependencies
         sudo apt-get install i2c-tools
     
 
-How to use it:
+###How to use it
+
 
  - Test i2C to check your display address
 
@@ -50,3 +56,11 @@ How to use it:
         	Ex.: sudo python stepperbar.py 120
 
 
+###License
+Copyright (c) 2016 Luís Soares
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
